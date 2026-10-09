@@ -20,6 +20,7 @@ Start by preserving existing behavior. Native Linux support requires both a nati
 ## Phase 1 — Establish behavior and platform requirements
 
 - [ ] **T01: Verify the existing build and record baseline behavior.**
+  - Progress: Windows, Linux/Wine, and mock builds passed locally on 9 October 2026. See [baseline results and runtime checklist](docs/platform-baseline.md); desktop and Linux runtime checks remain pending.
   - Build the Windows and Linux/Wine configurations using the existing release properties.
   - Use multiple mock windows to check discovery, title changes, closing, activation, per-client hotkeys, cycle groups, preview visibility, resizing, zoom, and configuration persistence.
   - Record which checks require real EVE clients or a Linux host and complete those before claiming parity.
